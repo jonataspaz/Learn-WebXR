@@ -9,7 +9,9 @@ class App {
     window.addEventListener("resize", this.resize.bind(this));
   }
 
-  resize() {}
+  resize() {
+    window.addEventListener("resize", this.resize.bind(this));
+  }
 
   render() {}
 }
